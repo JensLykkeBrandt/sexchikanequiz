@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "name": "DRDatabaseredaktionInteractive",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github01.net.dr.dk/DR-Nyheder-Database/development-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-ie": "^6.6.2",
+    "css-loader": "^0.28.7",
+    "dsv-loader": "^2.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-cdnify": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-http": "^2.2.0",
+    "grunt-image-embed": "^0.3.3",
+    "grunt-newer": "^1.1.1",
+    "grunt-svgmin": "^5.0.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-webpack": "^3.0.2",
+    "json-loader": "^0.5.2",
+    "less": "^2.5.1",
+    "less-loader": "^4.0.5",
+    "pkginfo": "^0.4.0",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}

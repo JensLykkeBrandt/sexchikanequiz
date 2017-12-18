@@ -1,0 +1,5 @@
+# Exclude the modules for nodejs source files
+node_modules
+
+# Exclud the build folder
+build
