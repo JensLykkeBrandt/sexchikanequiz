@@ -114,7 +114,7 @@ export default class viz {
                 this.noOption.style.opacity = 1;
                 // if it the last, then show "Resultat"
                 if ((this.currentQuestion + 1) == this.spgs.length) {
-                    this.nextQuestion.textContent = "RESULTAT";
+                    this.nextQuestion.innerHTML = `RESULTAT<span class="dr-icon-arrow-right nextArrow">`;
                 }
                 // showQuestion
                 this.showQuestion();
