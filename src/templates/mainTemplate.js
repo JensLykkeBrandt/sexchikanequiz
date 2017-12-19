@@ -13,7 +13,10 @@ return `
     <div class="answerRight"></div>
     <div class="answerFalse"></div>
     <div class="answerText"></div>
-    <div class="nextQuestion" ds="next">${texts.next}</div>
+    <div class="nextQuestion" ds="next">${texts.next}
+    <span class="dr-icon-arrow-right nextArrow">
+    </span>
+    </div>
 </span>
 `;
 }
